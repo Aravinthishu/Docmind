@@ -2,5 +2,7 @@
 .env
 docmind_backend/.env
 
+docmind_frontend/.env
+
 .env
 *.env
