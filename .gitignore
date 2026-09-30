@@ -1,0 +1,6 @@
+
+.env
+docmind_backend/.env
+
+.env
+*.env
