@@ -1,0 +1,7 @@
+[
+  {"question": "What is the refund policy?", "expect": ["14 days"]},
+  {"question": "How much does the Pro plan cost?", "expect": ["2999"]},
+  {"question": "When is support available?", "expect": ["9 AM"]},
+  {"question": "Do you integrate with Shopify?", "expect": ["Shopify"]},
+  {"question": "How many SKUs does the Basic plan include?", "expect": ["500 SKUs"]}
+]

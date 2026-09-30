@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-950: #071a13;
+  --color-forest-900: #0b2a1e;
+  --color-forest-800: #0f3d2b;
+  --color-forest-700: #145238;
+  --color-forest-600: #1a6b48;
+  --color-forest-500: #22855b;
+
+  --color-gold-400: #fde047;
+  --color-gold-500: #facc15;
+  --color-gold-600: #eab308;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-forest-950);
+  color: #f0f4f2;
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-forest-900); }
+::-webkit-scrollbar-thumb { background: var(--color-forest-600); border-radius: 4px; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes dm-shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #0f3d2b 25%, #145238 37%, #0f3d2b 63%);
+  background-size: 400px 100%;
+  animation: dm-shimmer 1.4s ease-in-out infinite;
+}

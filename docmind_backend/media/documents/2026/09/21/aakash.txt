@@ -1,0 +1,87 @@
+Here is the fully expanded, complete website content for AAKASH POWER ENGINEERING ([www.aaksispower.com](https://www.aaksispower.com)).
+This updated copy integrates your comprehensive OEM manufacturing scope—spanning Grid-Tied & Hybrid BESS Solar Projects (DCR & Non-DCR), Switchgear & Distribution (HT VCB, HT RMU, ACB, MCCB), Energy Storage & Combiner Boxes, Hermetically Shielded Transformers, and Operations & Maintenance (O&M) Services.
+🌐 Complete Website Architecture & Copy: AAKASH POWER ENGINEERING
+🎯 1. HOME PAGE
+Hero Section
+•	Headline: Driving Power Quality, Renewable Energy & High-Voltage Infrastructure Since 2004
+•	Sub-headline: ISO 9001:2015 Certified OEM Manufacturer, Power Quality Consultant, Solar EPC & O&M Solutions Provider.
+•	Tagline: Direct-Factory Technology | SiC-MOSFET Power Quality | Turnkey Solar, BESS & High-Voltage Switchgear
+•	Call to Action (CTA): [ Request Power Quality / Solar Audit ] | [ Contact Engineering Team ]
+About Aakash Power Engineering
+Established in 2004, Aakash Power Engineering is an ISO 9001:2015 Certified engineering enterprise, OEM manufacturer, and turnkey solutions provider headquartered in Thirumangalam, Madurai District, Tamil Nadu.
+Over two decades, we have engineered and delivered robust solutions across the entire electrical spectrum—from ultra-fast active harmonic mitigation and dynamic reactive power compensation to turnkey Grid-Tied and Hybrid Solar BESS projects, high-voltage switchgear, and ongoing O&M (Operations & Maintenance) contracts.
+Key Highlights:
+•	ISO 9001:2015 Certified Quality Management System (Cert No: INQ/AN-18854/125905/0225, Accredited by UKAFC)
+•	38+ Years of Field Excellence (Established 2004)
+•	Complete OEM Scope: In-house R&D, OEM Manufacturing, Power Quality Auditing, Solar EPC, and O&M Services.
+•	Direct Factory Model: Eliminating middlemen to provide Tier-1 quality, competitive pricing, and direct technical backing.
+⚡ 2. PRODUCTS PAGE
+A. Active Power Quality & Harmonic Mitigation (OEM)
+•	Active Power Filters (APF / AHF): 
+o	Advanced 3P3W and 3P4W topologies engineered with high-speed Silicon Carbide (SiC) MOSFET technology.
+o	Dynamically mitigates harmonics up to the 50th order (targeting THDi < 5%) with 3 x phase neutral current compensation for unbalanced/healthcare loads.
+•	Advanced Static Var Generators (ASVG / SVG): 
+o	Ultra-fast, stepless dynamic reactive power compensation (inductive and capacitive) to maintain continuous unity power factor (1.000).
+•	Hybrid APF + ASVG Integrated Panels: 
+o	Custom combination systems for heavy industrial plants and high-capacity solar installations.
+B. Solar Inverters, BESS & PV Infrastructure (OEM)
+•	On-Grid Solar Inverters: High-efficiency central and string grid-tied solar inverters for utility-scale and industrial applications.
+•	Hybrid Solar Inverters: Smart bi-directional inverters designed for seamless grid interaction and battery integration.
+•	Lithium Battery Energy Storage Systems (BESS): High-density Lithium Iron Phosphate (\text{LiFePO}_4) energy storage for peak shaving, demand management, and backup power.
+•	PV Combiner Boxes & LT Combiner Boxes: Dustproof, weatherproof array junction boxes equipped with surge protection (SPD), fuses, and isolation switches.
+C. High-Voltage (HT) & Low-Voltage (LV) Switchgear (OEM)
+•	HT Vacuum Circuit Breakers (VCB): Heavy-duty indoor and outdoor HT VCB panels for reliable substation and feeder protection.
+•	HT Ring Main Units (RMU): Compact, gas/air-insulated RMUs for uninterrupted high-voltage distribution networks.
+•	Air Circuit Breakers (ACB) & Moulded Case Circuit Breakers (MCCB): Industrial-grade low-voltage breakers with adjustable trip units for main distribution panels.
+D. Specialized Industrial Transformers (OEM)
+•	Hermetically Shielded Isolation Transformers: 
+o	Noise-attenuating, dual-shielded, hermetically sealed isolation transformers designed for sensitive IT, medical, and high-noise environments.
+•	K-Factor & Distribution Transformers: 
+o	Heavy-duty step-up/step-down transformers designed to handle harmonic heating and non-linear industrial loads.
+🛠️ 3. SERVICES PAGE
+1. Turnkey Solar & Hybrid BESS Projects (DCR & Non-DCR)
+•	Grid-Tied & Hybrid Solar EPC: Complete design, supply, installation, and commissioning of turnkey solar power plants.
+•	DCR & Non-DCR Compliance: Capability to execute Domestic Content Requirement (DCR) compliant solar projects for government/subsidy schemes, as well as Non-DCR installations for commercial/industrial setups.
+•	BESS Integration: Seamless synchronization of solar PV, grid supply, lithium storage, and standby generation.
+2. Operations & Maintenance (O&M) Services
+•	Comprehensive Solar & PQ O&M: Complete operation and maintenance contracts for solar power plants, substations, and active power quality installations.
+•	Preventive & Corrective Maintenance: Scheduled thermography, panel cleaning, inverter diagnostics, relay calibration, and break-down support.
+•	Performance Monitoring & Asset Management: Real-time remote telemetry, energy yield tracking, and generation optimization.
+3. Electrical Power Quality Audits & Diagnostic Services
+•	On-site measurements using Class-A power quality analyzers.
+•	Complete evaluation of Voltage/Current Harmonics (THDv THDi), Power Factor (PF), neutral current, and transient spikes.
+•	Regulatory compliance reporting for CEA, TNEB, and IEEE standards.
+🏢 4. ABOUT US PAGE
+Our Legacy & Certification
+Founded in 2004, Aakash Power Engineering is dedicated to solving the most complex power quality, energy storage, and electrical distribution challenges.
+Backed by our ISO 9001:2015 Certification under the United Kingdom Accreditation Forum Certification (UKAFC), we deliver field-tested engineering directly from our manufacturing unit to your facility.
+ISO 9001:2015 Certified Scope of Operations:
+"Audit, Technical Research, Technologies & Development, and OEM Manufacturer of Power Quality Products & Solar Power Projects."
+•	Certificate No: INQ/AN-18854/125905/0225
+•	Accreditation: UKAFC / Ocean Standard Certification
+
+The AAKSIS Brand Ecosystem
+•	Aakash Power Engineering: Core OEM manufacturing, HT/LV engineering, R&D, and solar EPC execution.
+•	AAKSIS Connect: Dedicated channel distribution and product logistics network.
+•	AAKSIS NXT: Strategic management, technical consultancy, and next-generation power solutions.
+📞 5. CONTACT US PAGE
+Registered Office & Works
+•	Company Name: AAKASH POWER ENGINEERING
+•	Registered Address: 68, Arumugam North Street 2, Thirumangalam, Madurai District, Tamil Nadu, India – 625706 
+•	Official Website: www.aaksispower.com (Formerly www.aakashpowerengg.com)
+•	Business Hours: Monday – Saturday: 9:00 AM – 6:30 PM IST
+Direct Technical Inquiry Form
+[ Full Name ]                      
+[ Phone Number / WhatsApp ]
+[ Company / Organization Name ]    
+[ Email Address ]
+[ Inquiry Type Dropdown ]
+  - Turnkey Solar Project (DCR / Non-DCR)
+  - Hybrid BESS & Solar Inverters
+  - Operations & Maintenance (O&M) Services
+  - Active Power Filter (APF) / ASVG
+  - HT VCB / HT RMU / Switchgear (ACB, MCCB)
+  - Hermetically Shielded / Isolation Transformers
+  - Power Quality & Energy Audit
+[ Site / Project Details or Message Box ]
+[ Submit Request Button ]

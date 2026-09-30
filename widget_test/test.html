@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aravinth Info Tech — Innovative Solutions</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #ffffff;
+      color: #1e293b;
+      line-height: 1.5;
+      scroll-behavior: smooth;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ===== HEADER ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #fde68a;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: -0.02em;
+      color: #1e1b1b;
+    }
+
+    .logo-icon {
+      background: linear-gradient(135deg, #facc15, #eab308);
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1e1b1b;
+      font-size: 1.4rem;
+      box-shadow: 0 8px 14px -6px rgba(250, 204, 21, 0.5);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 36px;
+      font-weight: 500;
+      color: #334155;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.2s;
+      font-size: 0.98rem;
+    }
+
+    .nav-links a:hover {
+      color: #ca8a04;
+    }
+
+    .btn-outline {
+      border: 1px solid #fde68a;
+      background: #fefce8;
+      padding: 10px 22px;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #1e1b1b;
+      transition: all 0.2s;
+      cursor: default;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-outline i {
+      font-size: 0.9rem;
+      color: #ca8a04;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 70px 0 50px;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .hero-content {
+      flex: 1 1 500px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #fef9c3;
+      color: #854d0e;
+      font-weight: 600;
+      font-size: 0.8rem;
+      padding: 6px 16px;
+      border-radius: 40px;
+      letter-spacing: 0.3px;
+      margin-bottom: 24px;
+      border: 1px solid #fde68a;
+    }
+
+    .hero h1 {
+      font-size: 3.4rem;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      color: #1e1b1b;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      background: linear-gradient(145deg, #eab308, #facc15);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #475569;
+      max-width: 600px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 40px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .stat-item h3 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #1e1b1b;
+    }
+
+    .stat-item p {
+      font-size: 0.9rem;
+      color: #64748b;
+      margin-top: 4px;
+      font-weight: 500;
+    }
+
+    .hero-visual {
+      flex: 1 1 360px;
+      background: linear-gradient(145deg, #fefce8, #fef9c3);
+      border-radius: 40px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      box-shadow: 0 25px 40px -20px rgba(250, 204, 21, 0.4);
+      border: 1px solid #fde68a;
+    }
+
+    .visual-card {
+      background: white;
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.02);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      border: 1px solid #fef9c3;
+      transition: transform 0.15s;
+    }
+
+    .visual-card i {
+      font-size: 2rem;
+      background: #fef9c3;
+      width: 54px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      color: #ca8a04;
+    }
+
+    .visual-card h4 {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #1e1b1b;
+    }
+
+    .visual-card p {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    /* ===== SERVICES ===== */
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #1e1b1b;
+      margin-bottom: 12px;
+    }
+
+    .section-sub {
+      color: #475569;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin-bottom: 48px;
+    }
+
+    .services {
+      padding: 70px 0;
+      border-top: 1px solid #fde68a;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 28px;
+      padding: 32px 26px;
+      border: 1px solid #fef9c3;
+      box-shadow: 0 8px 20px -8px rgba(0, 0, 0, 0.04);
+      transition: all 0.25s;
+    }
+
+    .service-card:hover {
+      border-color: #fde68a;
+      box-shadow: 0 18px 30px -12px rgba(250, 204, 21, 0.25);
+      transform: translateY(-3px);
+    }
+
+    .service-icon {
+      background: linear-gradient(135deg, #fef9c3, #fef08a);
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      color: #ca8a04;
+      font-size: 1.7rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1e1b1b;
+    }
+
+    .service-card p {
+      color: #475569;
+      font-size: 0.96rem;
+      margin-bottom: 18px;
+      line-height: 1.6;
+    }
+
+    .service-link {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #ca8a04;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0.9;
+    }
+
+    /* ===== DEMO CONTENT / CTA ===== */
+    .demo-cta {
+      background: linear-gradient(105deg, #1e1b1b 0%, #2d2a1a 100%);
+      border-radius: 48px;
+      padding: 60px 50px;
+      margin: 60px 0;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .demo-cta h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      max-width: 600px;
+    }
+
+    .demo-cta p {
+      color: #d4d4aa;
+      font-size: 1.1rem;
+      margin-top: 12px;
+      max-width: 550px;
+    }
+
+    .cta-badge {
+      background: rgba(250, 204, 21, 0.12);
+      backdrop-filter: blur(10px);
+      padding: 12px 26px;
+      border-radius: 100px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1px solid rgba(250, 204, 21, 0.3);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: #facc15;
+    }
+
+    .cta-badge i {
+      color: #facc15;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      padding: 48px 0 32px;
+      border-top: 1px solid #fde68a;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 28px;
+      color: #475569;
+      font-size: 0.9rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: #475569;
+    }
+
+    .footer-links a:hover {
+      color: #ca8a04;
+    }
+
+    .social i {
+      color: #64748b;
+      margin-left: 16px;
+      font-size: 1.2rem;
+      transition: color 0.2s;
+    }
+
+    .social i:hover {
+      color: #eab308;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero {
+        padding: 40px 0 30px;
+      }
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav-links {
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+      .demo-cta {
+        padding: 40px 28px;
+      }
+      .demo-cta h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-icon"><i class="fas fa-code"></i></div>
+        <span>Aravinth <span style="font-weight: 300; color: #ca8a04;">InfoTech</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#">Solutions</a>
+        <a href="#">Platform</a>
+        <a href="#">Resources</a>
+        <a href="#">Company</a>
+      </div>
+      <div class="btn-outline">
+        <i class="fas fa-headset"></i> Talk to an expert
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="badge">⚡ Trusted by 500+ enterprises</div>
+        <h1>Build smarter.<br>Scale <span>faster.</span></h1>
+        <p>Aravinth InfoTech delivers AI-driven cloud, data, and automation solutions that help modern businesses innovate without limits.</p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>99.99%</h3>
+            <p>Uptime SLA</p>
+          </div>
+          <div class="stat-item">
+            <h3>150+</h3>
+            <p>Global clients</p>
+          </div>
+          <div class="stat-item">
+            <h3>24/7</h3>
+            <p>Expert support</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-card">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <div>
+            <h4>Cloud Migration</h4>
+            <p>Zero-downtime infrastructure</p>
+          </div>
+        </div>
+        <div class="visual-card">
+          <i class="fas fa-chart-line"></i>
+          <div>
+            <h4>Data & Analytics</h4>
+            <p>Real-time decision engines</p>
+          </div>
+        </div>
+        <div class="visual-card">
+          <i class="fas fa-robot"></i>
+          <div>
+            <h4>AI Assistants</h4>
+            <p>Smart, contextual automation</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+      <h2 class="section-title">Enterprise-grade solutions</h2>
+      <p class="section-sub">From strategy to implementation — we bring deep technical expertise and a product mindset.</p>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Cloud Engineering</h3>
+          <p>Design, migrate, and optimize multi-cloud environments with security and cost-efficiency baked in.</p>
+          <div class="service-link">Learn more <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-database"></i></div>
+          <h3>Data & AI</h3>
+          <p>Unlock insights with modern data platforms, ML pipelines, and generative AI integration.</p>
+          <div class="service-link">Learn more <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Cybersecurity</h3>
+          <p>Proactive threat detection, zero-trust frameworks, and compliance for regulated industries.</p>
+          <div class="service-link">Learn more <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-cogs"></i></div>
+          <h3>DevOps & Automation</h3>
+          <p>Accelerate delivery with CI/CD, infrastructure as code, and intelligent observability.</p>
+          <div class="service-link">Learn more <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo content / CTA -->
+    <div class="demo-cta">
+      <div>
+        <h2>Experience the Aravinth AI assistant</h2>
+        <p>Ask anything about our services, pricing, or technical details. Our chatbot is available 24/7.</p>
+      </div>
+      <div class="cta-badge">
+        <i class="fas fa-comment-dots"></i> Chat live below ⤵
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>© 2025 Aravinth InfoTech. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+      </div>
+      <div class="social">
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-x-twitter"></i>
+        <i class="fab fa-github"></i>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ===== CHATBOT WIDGET (exactly as provided) ===== -->
+  <script
+    src="widget.js"
+    data-key="pk_bc1ca57fa454a0c92eb6e774f14c6e2bcccedfce0cf4a11a"
+    data-api-base="http://127.0.0.1:8000/api"
+    async
+  ></script>
+</body>
+</html>
